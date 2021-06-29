@@ -33,7 +33,7 @@ public class CartManagerTestNonEmptyWithSetup {
 
     @Test
     public void shouldNotRemoveIfNotExists() {
-        int idToRemove = 4;
+        int idToRemove = 6;
 
         manager.removeById(idToRemove);
 
